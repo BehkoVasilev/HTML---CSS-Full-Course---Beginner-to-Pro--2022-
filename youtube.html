@@ -30,7 +30,10 @@
       vertical-align: top;
       margin-left: 15px;
     }
-
+    .video-info-grid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+    }
     .video-title {
       color: black;
       cursor: pointer;
@@ -38,6 +41,7 @@
       font-size: 14px;
       font-weight: bold;
       line-height: 20px;
+      margin-bottom: 12px;
     }
     .video-author,
     .video-stats {
@@ -47,15 +51,21 @@
       line-height: 18px;      
     }
 
+    .video-author{
+      margin-bottom: 2px;
+    }
+
     .channel-picture {
       display: inline-block;
       width: 50px;
       vertical-align: top;
+      background-color: lightgrey;
     }
 
     .video-info {
       display: inline-block;
-      width: 200px;
+      width: 250px;
+      background-color: lightgrey;
     }
 
     .profile-picture {
@@ -76,7 +86,7 @@
     <div class="thumbnail-row">
       <img class="thumbnail" src="intro-to-html/thumbnails/thumbnail-1.webp">
     </div>
-    <div>
+    <div class="video-info-grid">
       <div class="channel-picture">
         <img class="profile-picture" src="/intro-to-html/channel-pictures/channel-1.jpeg">
       </div>
@@ -97,7 +107,7 @@
     <div class="thumbnail-row">
       <img class="thumbnail" src="/intro-to-html/thumbnails/thumbnail-2.webp">
     </div>
-    <div>
+    <div class="video-info-grid">
       <div class="channel-picture">
         <img class="profile-picture" src="/intro-to-html/channel-pictures/channel-2.jpeg">
       </div>
