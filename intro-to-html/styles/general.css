@@ -7,8 +7,5 @@ p {
   body {
     margin: 0;
     padding-top: 85px;
-    border-top: solid;
-    border-top-width: 5px;
-    border-top-color: rgb(68, 68, 68);
     background-color: rgb(240, 238, 238);
   }
